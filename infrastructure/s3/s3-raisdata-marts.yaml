@@ -1,0 +1,17 @@
+Description: Cria bucket no S3
+
+Resources:
+
+  BucketS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: raisdata-marts
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: True
+        BlockPublicPolicy: True
+        IgnorePublicAcls: True
+        RestrictPublicBuckets: True
