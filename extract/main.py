@@ -6,8 +6,8 @@ s3_client = boto3.client('s3')
 billing_project_id='helpful-emitter-317201'
 
 """Para cada query na pasta querys -> Faz a consulta e o download da tabela"""
-for file in os.listdir('querys'):
-  with open("querys/{}".format(file)) as f:
+for file in os.listdir('../querys'):
+  with open("../querys/{}".format(file)) as f:
     query = f.read()
     print('Lendo {}'.format(file))
     bd.download(query=query, 
