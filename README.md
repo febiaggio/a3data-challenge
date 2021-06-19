@@ -16,4 +16,4 @@ Microdados da RAIS (Ministério do Trabalho) dos últimos 10 anos - de 2010 a 20
 
 #Pipeline de Soluções
 
-![image](./raw-team-a3data-challenge.png)
+![pipeline](https://github.com/febiaggio/raw-team-a3data-challenge/blob/master/rawteam-a3datachallenge.png?raw=true)
