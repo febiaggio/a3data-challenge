@@ -13,3 +13,7 @@ Desenvolver um pipeline de extração, transformação e disponibilização de d
 #Fonte de Dados
 
 Microdados da RAIS (Ministério do Trabalho) dos últimos 10 anos - de 2010 a 2019
+
+#Pipeline de Soluções
+
+![image](./raw-team-a3data-challenge.png)
