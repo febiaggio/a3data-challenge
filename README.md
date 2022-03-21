@@ -1,27 +1,27 @@
-
 # Hackathon A3 Data 2021
 
-## Raw Team
+This script ETLs public data from the Brazilian Ministry of Labor, using python and AWS cloud, as well as tools such as CloudFormation, EC2, S3 and QuickSight.
+
+## Team
 
 * [Felício de Biaggio](https://github.com/febiaggio)
 * [Isabela Trindade](https://github.com/isabelapt)
 * [Rodrigo Gosling](https://github.com/rodgosling)
 
+## Goals
 
-## Objetivo
+Develop a pipeline for extracting, transforming and serving data. In addition, visually answer the following questions:
+* In the last 10 years, what were the average salaries of men and women working with technology in the Southeast region of Brazil per year?
+* In the last 10 years, what were the average salaries of people by level of education who worked in the agribusiness sector in the southern region of Brazil?
+* Among the technology, auto industry and healthcare sectors, which one had the most growth? What was the number of workers in each sector per year?
+* In the last 10 years, which sectors have, in each year, the largest number of workers who work less than 40 hours a week?
+* What is the absolute number of people by each sex category who performed intermittent work in each of the last few years?
 
-Desenvolver um pipeline de extração, transformação e disponibilização de dados. Além disso, responder de forma visual as seguintes questões:
-* Nos últimos 10 anos, quais foram os salários médios de homens e mulheres que trabalham com tecnologia na região sudeste do Brasil por ano?
-* Nos últimos 10 anos, quais foram os salários médios das pessoas por nível de escolaridade que trabalhavam no setor de agronegócio na região sul do Brasil?
-* Entre os setores de tecnologia, indústria automobilística e profissionais da saúde, qual deles teve o maior crescimento? Qual foi o número de trabalhadores em cada setor por ano?
-* Nos últimos 10 anos, quais foram os setores que possuem, em cada ano, o maior número de trabalhadores que possuem jornada semanal inferior a 40h?
-* Qual é o número absoluto de pessoas por cada categoria de sexo que realizaram trabalho intermitente em cada um dos últimos anos?
+## Data Sources
 
-## Fonte de Dados
+Microdata from RAIS (Ministry of Labor) for the last 10 years - from 2010 to 2019.
 
-Microdados da RAIS (Ministério do Trabalho) dos últimos 10 anos - de 2010 a 2019
-
-## Pipeline de Soluções
+## Solution pipelane
 
 ![pipeline](https://github.com/febiaggio/raw-team-a3data-challenge/blob/master/rawteam-a3datachallenge.png?raw=true)
 
